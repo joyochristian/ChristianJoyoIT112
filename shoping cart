@@ -1,5 +1,4 @@
 # Shopping Cart Simulator
-# Created by: Joyo
 
 class ShoppingCart:
     def __init__(self):
@@ -38,7 +37,7 @@ class ShoppingCart:
             self.cart.clear()
 
 
-print("Welcome to Jabien's Shopping Cart Simulator")
+print("Welcome to Joyo's Shopping Cart Simulator")
 
 cart = ShoppingCart()
 
@@ -68,7 +67,7 @@ while True:
         cart.checkout()
 
     elif choice == "5":
-        print("Goodbye! Thank you for using Jabien's Shopping Cart.")
+        print("Goodbye! Thank you for using Joyo's Shopping Cart.")
         break
 
     else:
